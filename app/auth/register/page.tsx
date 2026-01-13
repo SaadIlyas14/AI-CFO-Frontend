@@ -737,11 +737,12 @@ export default function RegisterPage() {
           }
         }
       })
-
-      const response = await fetch(`${API_BASE_URL}/api/auth/signup/`, {
+      console.log("Submitting data:", Array.from(submitData.entries()))
+      const response = await fetch(`${API_BASE_URL}/api/auth/signup`, {  
         method: "POST",
         body: submitData,
       })
+
 
       const data = await response.json()
 

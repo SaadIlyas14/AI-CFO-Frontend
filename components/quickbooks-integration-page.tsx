@@ -1054,7 +1054,7 @@ export default function QuickBooksIntegrationPage() {
         return
       }
 
-      const response = await fetch(`${API_BASE_URL}/api/quickbooks/quickbooks/sync-all/`, {
+      const response = await fetch(`${API_BASE_URL}/api/quickbooks/sync/all`, {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${token}`,
