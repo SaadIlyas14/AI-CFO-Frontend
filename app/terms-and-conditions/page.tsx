@@ -370,6 +370,8 @@ export default function TermsAndConditionsPage() {
                 </div>
               </section>
 
+
+
               {/* Section 8: Termination */}
               <section id="termination" className="mb-12 scroll-mt-24">
                 <h2 className="mb-4 flex items-center gap-3 text-2xl font-bold">
