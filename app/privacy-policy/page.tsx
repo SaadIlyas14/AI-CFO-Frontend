@@ -24,6 +24,7 @@ import {
 import { XCircle } from "lucide-react";
 
 
+
 export default function PrivacyPolicyPage() {
   const [activeSection, setActiveSection] = useState("introduction")
 
